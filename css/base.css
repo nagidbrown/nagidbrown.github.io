@@ -27,10 +27,9 @@ header nav {
     font-size: 18px;
     padding-top: 8px;
 }
-header nav a{
-    padding: 2px;   
-}
+
 header a {
+    padding: 2px;
     color: #3366cc;
     text-decoration: none;
 }
@@ -52,6 +51,9 @@ indent {
     left: 120px;
 }
 
+img {
+    padding: 8px;
+}
 p {
     margin-bottom: 16px;
 }
@@ -66,8 +68,40 @@ article h1 {
 }
 
 footer {
+    
+}
+footer p {
     align-items: center;
     font-size: 11px;
     margin: 8px; 
     clear:both;
+}
+
+footer h1 {
+    float: left;
+    font-size: 30px;
+    font-family:helvetica, arial, sans-serif;
+    margin-right: 4px;
+    margin-left: 8px;   
+}
+
+footer nav {
+    font-family: arial;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+footer a {
+     padding: 2px;
+    color: #3366cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;   
+}
+
+footer article {
+    background-color: #000000;
+    height: 40px;
 }
