@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    background-color: #dcdcdc;
+}
+
+header {
+    background-color: #000000;
+    color: #3366CC;
+    height: 40px;
+}
+
+header h1 {
+    float: left;
+    font-size: 30px;
+    font-family:helvetica, arial, sans-serif;
+    margin-right: 4px;
+    margin-left: 8px;
+}
+
+header nav {
+    font-family: arial;
+    font-size: 18px;
+    padding-top: 8px;
+}
+header nav a{
+    padding: 2px;   
+}
+header a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+article {
+    clear: both;
+    line-height: 24px;
+    padding: 8px;
+    font-family: arial, serif;
+}
+
+indent {
+    /*position: absolute;*/
+    /*I can't get this to properly indent fo rmy resume page*/
+    left: 120px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+div {
+    float: right;
+    
+}
+article h1 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+footer {
+    align-items: center;
+    font-size: 11px;
+    margin: 8px; 
+    clear:both;
+}

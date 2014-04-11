@@ -1,0 +1,66 @@
+<code>head tag</code>
+has the title, language, media type/character set and "meta" tags.<br /> <code>title</code> is the only one view by people.<br />
+Example:<br /><code>!DOCTYPE html</code><br />
+<code>html "en"</code><br />comments are made enclosing <code>!--comment--</code> in brackets
+<h3>Elements</h3>
+Block elements appear on new line<br />
+Inline elements appear within line<br />
+
+<h4>types of block elements</h4>
+<code>p</code> for paragragh<br /> <code>h</code> for heading<br /> <code>br /</code> for breaking the line and <br /> <code>table</code> for tablular coding
+
+<h4>types of inline elements</h4>
+<code>img</code> for images<br /> <code>strong</code> for bold and<br /> <code>em</code> for italicized.<br /> <code>span</code> for unknown
+<h3>Images</h3>
+inline element, self-closing
+ex:<code>img src="images.jpg" width="600" height="405" alt="image name" title="image name"</code>
+<code>alt</code> and <code>title</code> same thing for different browsers<br />
+limit 200kb per image 1mb per page<br />
+<code>align</code> controls the picture's relationship to text<br />
+<code>border</code> puts abox around image<br />
+ <h3>Links</h3>
+denoted by <code>a</code>: inline, not self closing<br />
+ex:<code>(a href="title.html")title (/a)</code><br />
+<code>href</code> designate the address/location<br />
+you can have internal and extenral links
+<h4>External links</h4>
+-leads to outside sites and include more info<br />
+ex:<code>(a href="http://www.ufl.edu)UFL(a/)</code><br />
+<h5>URLs</h5> can be relative(on the same website, but may be in a different folder) or absolute(complete path to file)
+<br />
+<br />
+<br />
+
+
+
+<h2>CSS</h2>
+<h3>Applying CSS</h3>
+External link (most common)-can apply a stylesheet to many pages<br />
+Internal-inside the head tag<br />
+Local or Inline-(<code>"style=" within document</code>) makes the code unnecessarily heavy<br />
+Imported-from elsewhere<br />
+Browser-The "default" behavior<br />
+User-special needs based on individual users<br />
+<h4>External</h4>
+most commonly in <code>head</code> tag as <code>(link href="filename.css" rel="stylesheet" media="screen"type="text/css"/)</code>
+<h3>Rules of CSS</h3>
+Styles are applied in order that they are in in the code.<br />
+The last rule applied will over-ride previous styles<br />
+More specific rule will override less specific rules<br />
+Once a property is set it doesn't need to be restated unless you want to change it<br />
+ex: <code>body{font-family:arial, helvietica, sans-serif; font-size: 12px;}<br />h1<br />{font-size:</code>something something<code>}</code>
+
+<h3>CSS classes and IDs</h3>
+CSS can style html tags, but that's only the beginning<br />
+Classes and IDs are used for design and placement of elements on a page<br />
+Classes are used to make HTML tags behave in multiple ways<br /><br />
+IDs are usually reserved for design elements because you can only use IDs once on a page<br />
+We enclose portions of HTML in boxes called <code>(div)</code> and we style those with IDs or classes
+<h4>CSS class ex</h4>
+<code>.highlighter{background-color:yellow;}</code><br />
+Then in HTML: <code>(p class="highlighter")</code> inserted text<code>(/p)</code><br /><br />
+<code>.left{float:left;}</code><br />
+Then in HTML: <code>(img class="left")</code> blah blah blah<code>(/img)</code>
+<h4>CSS IDs ex</h4>
+<code>#title{stuff:define;}</code><br />
+Then in HTML: <code>(div title</code>
